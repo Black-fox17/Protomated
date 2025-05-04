@@ -10,6 +10,7 @@ import logo3 from '/techstack/budi.png'
 import logo4 from '/techstack/robo.png'
 import logo5 from '/techstack/n8n.png'
 import logo6 from '/techstack/webStudio.png'
+import image1 from '/data/image1.png'
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
           <div className="flex justify-between border-[1px] rounded-sm border-[#E3E3E3] w-[605px] h-[67px]">
             <input 
               type="text" 
-              className="placeholder:text-gray-400 placeholder:text-lg pl-4 hover:border-none focus:border-none"
+              className="placeholder:text-gray-400 placeholder:text-lg pl-4 hover:border-none focus:border-none w-[375px]"
               placeholder="I Want to Automate....."
             />
             <button className='bg-black text-white w-[232px] rounded-[6px] '>Book Free Assessment</button>
@@ -58,9 +59,56 @@ function App() {
         </div>
       </div>
 
-      <div>
-        <div className='w-[977px] h-[]'>
-          <h1>Overview of Services</h1>
+      <div className='flex flex-col space-y-4'>
+        <div className='w-full h-[65px] flex flex-col items-center text-center mt-20 '>
+          <h1 className="font-DMSans font-bold text-[48px] leading-[65px] tracking-[-0.5px] text-center text-[#0F173E]">Overview of Services</h1>
+          <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] opacity-70 text[#64647B]'>Discover automation opportunities unique to your business, receive a custom roadmap for implementation.</p>
+        </div>
+
+        <div className='mt-20 flex flex-wrap gap-20 ml-[1px] justify-center'>
+          <div className='flex shadow-xl rounded-lg  bg-[#FAFAFA] w-[520px] h-[292px] '>
+            <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
+              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
+              <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
+              <button className="w-[155px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More</button>
+            </div>
+            <div>
+              <img src = {image1}/>
+            </div>
+          </div>
+
+          <div className='flex shadow-xl bg-[#FAFAFA] w-[520px] h-[292px]'>
+            <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
+              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
+              <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
+              <button className="w-[155px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More</button>
+            </div>
+            <div>
+              <img src = {image1}/>
+            </div>
+          </div>
+
+          <div className='flex shadow-xl bg-[#FAFAFA] w-[520px] h-[292px]'>
+            <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
+              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
+              <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
+              <button className="w-[155px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More</button>
+            </div>
+            <div>
+              <img src = {image1}/>
+            </div>
+          </div>
+
+          <div className='flex shadow-xl bg-[#FAFAFA] w-[520px] h-[292px]'>
+            <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
+              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
+              <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
+              <button className="w-[155px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More</button>
+            </div>
+            <div>
+              <img src = {image1}/>
+            </div>
+          </div>
         </div>
         
       </div>
