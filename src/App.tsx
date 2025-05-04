@@ -66,7 +66,7 @@ function App() {
         </div>
 
         <div className='mt-20 flex flex-wrap gap-20 ml-[1px] justify-center'>
-          <div className='flex shadow-xl rounded-lg  bg-[#FAFAFA] w-[520px] h-[292px] '>
+          <div className='flex shadow-md inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
             <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
               <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
               <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
@@ -77,7 +77,7 @@ function App() {
             </div>
           </div>
 
-          <div className='flex shadow-xl bg-[#FAFAFA] w-[520px] h-[292px]'>
+          <div className='flex shadow-md inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
             <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
               <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
               <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
@@ -88,7 +88,7 @@ function App() {
             </div>
           </div>
 
-          <div className='flex shadow-xl bg-[#FAFAFA] w-[520px] h-[292px]'>
+          <div className='flex shadow-md inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
             <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
               <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
               <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
@@ -99,7 +99,7 @@ function App() {
             </div>
           </div>
 
-          <div className='flex shadow-xl bg-[#FAFAFA] w-[520px] h-[292px]'>
+          <div className='flex shadow-md inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
             <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
               <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
               <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
