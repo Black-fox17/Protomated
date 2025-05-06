@@ -27,6 +27,7 @@ import ellipse2 from '/topic/group/Ellipse 25.png'
 import ellipse3 from '/topic/group/Ellipse 26.png'
 
 import how1 from '/how/card.png'
+import how2 from '/how/card2.png'
 function App() {
   return (
     <div className="justify-center items-center w-[1200px] mx-auto ">
@@ -176,9 +177,9 @@ function App() {
         </div>
       </div>
 
-      <div className='flex flex-col space-y-4 mt-20'>
+      <div className='flex flex-col space-y-4 mt-20 w-[1100px] mx-auto'>
         
-        <div className='flex ml-5 justify-center gap-10 shadow-md inset-shadow-[#FAFAFA] rounded-lg w-[1200px] h-[289px]'>
+        <div className='flex ml-5 justify-center gap-10 shadow-md inset-shadow-[#FAFAFA] rounded-lg w-[1100px] h-[289px]'>
           <div className='w-[608px] h-[195px] '>
             <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] '>Over 50,000 people have gotten that automated solution.</h1>
           </div>
@@ -190,7 +191,7 @@ function App() {
           <img src = {feature1} />
         </div>
 
-        <div className='flex mt-10 justify-between '>
+        <div className='flex mt-10 space-x-8 '>
           <div className='w-[386px] h-[392px] flex flex-col  shadow-md rounded-lg item'>
             <div className='mt-6 space-y-4'>
               <div className='w-[118px] h-[20px] bg-[#DEFFDE] rounded-md ml-2'>
@@ -271,20 +272,73 @@ function App() {
          </div>
       </div>
 
-      <div className='flex flex-col mt-20 w-[1158px] justify-center'>
-          <div>
-            <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] text-center'>How it works</h1>
-          </div>
+      <div className='flex flex-col mt-20 w-[1050px] mx-auto'>
+            <div>
+              <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] text-center'>How it works</h1>
+            </div>
 
-          <div>
             <div>
-              <img src = {how1} />
+              <div className='flex justify-between mt-10'>
+                <div className='w-[377.4302062988281px] h-[197.1650390625px]'>
+                  <img src = {how1} />
+                </div>
+                <div className='mt-20 relative'>
+                  <p className="font-inter p-3 font-medium text-[20px] leading-[100%] tracking-[-1%] capitalize text-center rounded-4xl bg-[#F8F8F8] text-black">01</p>
+                  <div className="absolute left-1/2 w-[2px] h-[210px] bg-[#3E4047] transform -translate-x-1/2"></div>
+                </div>
+                <div className='w-[450px] h-[215px] space-y-3'>
+                  <h1 className="font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]">Custom Roadmap</h1>
+                  <p className="font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]">We design a tailored automation plan that aligns with your business goals. This personalized roadmap identifies key areas for improvement and integrates the most effective automation strategies to streamline your operations.</p>
+                </div>
+              </div>
+
+              <div className='flex justify-between mt-10'>
+                  <div className='w-[377.4302062988281px] h-[197.1650390625px] space-y-3'>
+                    <h1 className="font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]">Swift Implementation</h1>
+                    <p className="font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]">We set up and integrate automation solutions, ensuring a seamless transition with minimal disruption to your operations. Our expert team handles the technical details, allowing you to quickly benefit from enhanced productivity and streamlined workflows.</p>
+                  </div>
+                  <div className='mt-20 relative'>
+                    <p className="font-inter p-3 font-medium text-[20px] leading-[100%] tracking-[-1%] capitalize text-center rounded-4xl bg-[#F8F8F8] text-black">02</p>
+                    <div className="absolute left-1/2 w-[2px] h-[250px] bg-[#3E4047] transform -translate-x-1/2"></div>
+                  </div>
+                <div className='w-[450px] h-[215px] '>
+                  <img src = {how1} />
+                </div>
+              </div>
+
+              <div className='flex justify-between mt-20'>
+                <div className='w-[377.4302062988281px] h-[197.1650390625px]'>
+                  <img src = {how2} />
+                </div>
+                <div className='mt-20 '>
+                  <p className="font-inter p-3 font-medium text-[20px] leading-[100%] tracking-[-1%] capitalize text-center rounded-4xl bg-[#F8F8F8] text-black">03</p>
+                </div>
+                <div className='w-[450px] h-[215px] space-y-3'>
+                  <h1 className="font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]">Ongoing Support</h1>
+                  <p className="font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]">We provide continuous assistance to ensure your automation solutions run smoothly and efficiently. This ongoing support guarantees that your operations remain optimized and adaptable to changing business needs, allowing you to focus on growth."</p>
+                </div>
+              </div>
+            </div>
+      </div>
+
+      <div className='mt-10'>
+        <div>
+          <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] text-center'>Latest Blog Posts</h1>
+        </div>
+        <div>
+          <div className='w-[355px] h-[186px]'>
+            <div>
+              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>First Blog Post</h1>
+              <p className='font-sora font-normal text-[20px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Overwhelmed by document management and billing processes document categorization and time-tracking integration...</p>
             </div>
             <div>
-              <h1>Custom Roadmap</h1>
-              <p>We design a tailored automation plan that aligns with your business goals. This personalized roadmap identifies key areas for improvement and integrates the most effective automation strategies to streamline your operations.</p>
+              <div>
+                <h1>October 19, 2019</h1>
+              </div>
+              <p>Read More ...</p>
             </div>
           </div>
+        </div>
       </div>
   </div>
   )
