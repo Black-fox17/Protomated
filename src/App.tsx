@@ -28,8 +28,11 @@ import ellipse3 from '/topic/group/Ellipse 26.png'
 
 import how1 from '/how/card.png'
 import how2 from '/how/card2.png'
+import how3 from '/how/card3.png'
+
+import shape from '/design/Shape.png'
 function App() {
-  return (
+  return ( 
     <div className="justify-center items-center w-[1200px] mx-auto ">
       <div className="flex justify-between items-center  p-4">
         <img src={logo} alt="logo" className="w-[174.64px] h-[40px]" />
@@ -104,7 +107,7 @@ function App() {
             </div>
           </div>
 
-          <div className='flex shadow-md inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
+          <div className='flex shadow-md  inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
             <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
               <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Productivity & Analytics</h1>
               <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Optimize performance and make data-driven decisions.ccc</p>
@@ -115,7 +118,7 @@ function App() {
             </div>
           </div>
 
-          <div className='flex shadow-md inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
+          <div className='flex shadow-md  inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
             <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
               <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>AI-Powered Solutions</h1>
               <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Leverage cutting-edge technology for smarter business.</p>
@@ -179,11 +182,11 @@ function App() {
 
       <div className='flex flex-col space-y-4 mt-20 w-[1100px] mx-auto'>
         
-        <div className='flex ml-5 justify-center gap-10 shadow-md inset-shadow-[#FAFAFA] rounded-lg w-[1100px] h-[289px]'>
-          <div className='w-[608px] h-[195px] '>
+        <div className='flex ml-5 justify-center gap-10 shadow-md bg-white inset-shadow-[#FAFAFA] rounded-4xl w-[1100px] h-[289px] mx-auto my-auto '>
+          <div className='w-[608px] h-[195px] mt-5'>
             <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] '>Over 50,000 people have gotten that automated solution.</h1>
           </div>
-          <div className='flex ml-[-30px] space-x-[-10px]'>
+          <div className='flex ml-[-30px] space-x-[-10px] mt-10'>
             <img src = {ellipse1} className='w-[48px] h-[48px]'/>
             <img src = {ellipse2} className='w-[48px] h-[48px]' />
             <img src = {ellipse3} className='w-[48px] h-[48px]'/>
@@ -191,8 +194,8 @@ function App() {
           <img src = {feature1} />
         </div>
 
-        <div className='flex mt-10 space-x-8 '>
-          <div className='w-[386px] h-[392px] flex flex-col  shadow-md rounded-lg item'>
+        <div className='flex mt-20 space-x-8 '>
+          <div className='w-[386px] h-[392px] flex flex-col  shadow-md bg-white rounded-lg item'>
             <div className='mt-6 space-y-4'>
               <div className='w-[118px] h-[20px] bg-[#DEFFDE] rounded-md ml-2'>
                 <h1 className='text-center text-[#115B25] font-sora font-medium text-[16px] leading-[100%] tracking-[0%]'>Automation</h1>
@@ -218,7 +221,7 @@ function App() {
             </div>
           </div>
 
-          <div className='w-[386px] h-[392px] flex flex-col  shadow-md rounded-lg item'>
+          <div className='w-[386px] h-[392px] flex flex-col  shadow-md bg-white rounded-lg item'>
             <div className='mt-6 space-y-4'>
               <div className='w-[118px] h-[20px] bg-[#DEECFF] rounded-md ml-2'>
                 <h1 className='text-center text-[#112E5B] font-sora font-medium text-[16px] leading-[100%] tracking-[0%]'>Accuracy</h1>
@@ -244,7 +247,7 @@ function App() {
             </div>
           </div>
 
-          <div className='w-[386px] h-[392px] flex flex-col  shadow-md rounded-lg item'>
+          <div className='w-[386px] h-[392px] flex flex-col  shadow-md bg-white rounded-lg item'>
             <div className='mt-6 space-y-4'>
               <div className='w-[118px] h-[20px] bg-[#FFF5E5] rounded-md ml-2'>
                 <h1 className='text-center text-[#E3941C] font-sora font-medium text-[16px] leading-[100%] tracking-[0%]'>Efficiency</h1>
@@ -302,7 +305,7 @@ function App() {
                     <div className="absolute left-1/2 w-[2px] h-[250px] bg-[#3E4047] transform -translate-x-1/2"></div>
                   </div>
                 <div className='w-[450px] h-[215px] '>
-                  <img src = {how1} />
+                  <img src = {how3} />
                 </div>
               </div>
 
@@ -321,12 +324,12 @@ function App() {
             </div>
       </div>
 
-      <div className='mt-10'>
+      <div className='mt-20'>
         <div>
           <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] text-center'>Latest Blog Posts</h1>
         </div>
         <div className='flex mt-10 w-[1100px] mx-auto space-x-4'>
-          <div className='flex flex-col w-[403px] h-[290px] shadow-2xl space-y-6 rounded-2xl'>
+          <div className='flex flex-col w-[403px] h-[290px] shadow-md bg-white space-y-6 rounded-2xl'>
             <div className='ml-4  mt-2'>
               <div className='mt-2 w-[355px]'>
                 <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>First Blog Post</h1>
@@ -341,7 +344,7 @@ function App() {
             </div>
           </div>
 
-          <div className='flex flex-col w-[403px] h-[290px] shadow-2xl space-y-6 rounded-2xl'>
+          <div className='flex flex-col w-[403px] h-[290px] shadow-md bg-white space-y-6 rounded-2xl'>
             <div className='ml-4  mt-2'>
               <div className='mt-2 w-[355px]'>
                 <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Law Firm Efficiency Boost</h1>
@@ -356,7 +359,7 @@ function App() {
             </div>
           </div>
 
-          <div className='flex flex-col w-[403px] h-[290px] shadow-2xl space-y-6 rounded-2xl'>
+          <div className='flex flex-col w-[403px] h-[290px] shadow-md bg-white space-y-6 rounded-2xl'>
             <div className='ml-4  mt-2'>
               <div className='mt-2 w-[355px]'>
                 <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Law Firm Efficiency Boost</h1>
@@ -371,6 +374,62 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className='mt-20 relative flex flex-col '>
+          <div className='relative'>
+            <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] text-center'>Testimonials</h1>
+            <div className='absolute left-1/2 -translate-x-1/2'>
+              <img src={shape} alt="shape decoration" />
+            </div>
+          </div>
+
+          <div className='mt-10 flex flex-wrap justify-center space-x-7 space-y-6'>
+            <div className='w-[558px] h-[250px] shadow-md bg-white rounded-2xl'>
+              <div className='w-[472px] h-[194px] mx-auto my-auto flex flex-col justify-center '>
+                <div className='flex space-x-2'>
+                  <img src = {ellipse1}/>
+                  <div>
+                    <h1 className='font-sora font-semibold text-[24px] leading-[34px] trackin-g[-0.5px]'>Micheal Chen</h1>
+                    <p className='font-sora font-normal text-[12px] leading-[100%] tracking-[0]'>Product Designer</p>
+                  </div>
+                </div>
+                <div className='mt-4'>
+                  <p className='font-sora font-normal text-[18px] tracking-[-0.5px] text-[#212243]'>“The ROI we’ve seen from Protomated’s solutions is incredible. Our productivity has soared.”</p>
+                </div>
+              </div>
+            </div>
+
+            <div className='w-[558px] h-[250px] shadow-md bg-white rounded-2xl mt-8' >
+              <div className='w-[472px] h-[194px] mx-auto my-auto flex flex-col justify-center '>
+                <div className='flex space-x-2'>
+                  <img src = {ellipse2}/>
+                  <div>
+                    <h1 className='font-sora font-semibold text-[24px] leading-[34px] trackin-g[-0.5px]'>Mansur Doe</h1>
+                    <p className='font-sora font-normal text-[12px] leading-[100%] tracking-[0]'>Product Designer</p>
+                  </div>
+                </div>
+                <div className='mt-4'>
+                  <p className='font-sora font-normal text-[18px] tracking-[-0.5px] text-[#212243]'>- We now have confidence in the quality of our leads. Their support team is incredible, too. Really smart guys who care about helping."</p>
+                </div>
+              </div>
+            </div>
+
+            <div className='w-[558px] h-[250px] shadow-md bg-white rounded-2xl'>
+              <div className='w-[472px] h-[194px] mx-auto my-auto flex flex-col justify-center '>
+                <div className='flex space-x-2'>
+                  <img src = {ellipse3}/>
+                  <div>
+                    <h1 className='font-sora font-semibold text-[24px] leading-[34px] trackin-g[-0.5px]'>Mansur Doe</h1>
+                    <p className='font-sora font-normal text-[12px] leading-[100%] tracking-[0]'>Product Designer</p>
+                  </div>
+                </div>
+                <div className='mt-4'>
+                  <p className='font-sora font-normal text-[18px] tracking-[-0.5px] text-[#212243 ]'>- We now have confidence in the quality of our leads. Their support team is incredible, too. Really smart guys who care about helping."</p>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
   </div>
   )
