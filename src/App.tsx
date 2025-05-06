@@ -325,17 +325,49 @@ function App() {
         <div>
           <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] text-center'>Latest Blog Posts</h1>
         </div>
-        <div>
-          <div className='w-[355px] h-[186px]'>
-            <div>
-              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>First Blog Post</h1>
-              <p className='font-sora font-normal text-[20px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Overwhelmed by document management and billing processes document categorization and time-tracking integration...</p>
-            </div>
-            <div>
-              <div>
-                <h1>October 19, 2019</h1>
+        <div className='flex mt-10 w-[1100px] mx-auto space-x-4'>
+          <div className='flex flex-col w-[403px] h-[290px] shadow-2xl space-y-6 rounded-2xl'>
+            <div className='ml-4  mt-2'>
+              <div className='mt-2 w-[355px]'>
+                <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>First Blog Post</h1>
+                <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B] mt-4'>Overwhelmed by document management and billing processes document categorization and time-tracking integration...</p>
               </div>
-              <p>Read More ...</p>
+              <div className='flex justify-between mt-20'>
+                <div>
+                  <h1 className='font-sora font-medium text-[10px] leading-[100%] text-[#0F173E]'>October 19, 2019</h1>
+                </div>
+                <p className='font-sora font-normal text-[16px] leading-[100%] text-[#0F173E] mr-2'>Read More ...</p>
+              </div>
+            </div>
+          </div>
+
+          <div className='flex flex-col w-[403px] h-[290px] shadow-2xl space-y-6 rounded-2xl'>
+            <div className='ml-4  mt-2'>
+              <div className='mt-2 w-[355px]'>
+                <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Law Firm Efficiency Boost</h1>
+                <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B] mt-4'>Overwhelmed by document management and billing processes document categorization and time-tracking integration...</p>
+              </div>
+              <div className='flex justify-between mt-20'>
+                <div>
+                  <h1 className='font-sora font-medium text-[10px] leading-[100%] text-[#0F173E]'>October 19, 2019</h1>
+                </div>
+                <p className='font-sora font-normal text-[16px] leading-[100%] text-[#0F173E] mr-2'>Read More ...</p>
+              </div>
+            </div>
+          </div>
+
+          <div className='flex flex-col w-[403px] h-[290px] shadow-2xl space-y-6 rounded-2xl'>
+            <div className='ml-4  mt-2'>
+              <div className='mt-2 w-[355px]'>
+                <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Law Firm Efficiency Boost</h1>
+                <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B] mt-4'>Overwhelmed by document management and billing processes document categorization and time-tracking integration...</p>
+              </div>
+              <div className='flex justify-between mt-20'>
+                <div>
+                  <h1 className='font-sora font-medium text-[10px] leading-[100%] text-[#0F173E]'>October 19, 2019</h1>
+                </div>
+                <p className='font-sora font-normal text-[16px] leading-[100%] text-[#0F173E] mr-2'>Read More ...</p>
+              </div>
             </div>
           </div>
         </div>
