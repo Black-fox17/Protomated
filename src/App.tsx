@@ -11,7 +11,22 @@ import logo4 from '/techstack/robo.png'
 import logo5 from '/techstack/n8n.png'
 import logo6 from '/techstack/webStudio.png'
 import image1 from '/data/image1.png'
+import image2 from '/data/image2.png'
+import image3 from '/data/image3.png'
+import image4 from '/data/image4.png'
 
+import image_1 from '/why/image1.png'
+import image_2 from '/why/image2.png'
+import image_3 from '/why/image3.png'
+import image_4 from '/why/image4.png'
+
+import feature1 from '/topic/image1.png'
+
+import ellipse1 from '/topic/group/Ellipse 24.png'
+import ellipse2 from '/topic/group/Ellipse 25.png'
+import ellipse3 from '/topic/group/Ellipse 26.png'
+
+import how1 from '/how/card.png'
 function App() {
   return (
     <div className="justify-center items-center w-[1200px] mx-auto ">
@@ -70,7 +85,7 @@ function App() {
             <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
               <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
               <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
-              <button className="w-[155px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More</button>
+              <button className="w-[160px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More...</button>
             </div>
             <div>
               <img src = {image1}/>
@@ -79,40 +94,198 @@ function App() {
 
           <div className='flex shadow-md inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
             <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
-              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
-              <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
-              <button className="w-[155px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More</button>
+              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Intelligent Data Processing</h1>
+              <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Transform raw data into actionable insights.</p>
+              <button className="w-[160px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More...</button>
             </div>
             <div>
-              <img src = {image1}/>
+              <img src = {image2}/>
             </div>
           </div>
 
           <div className='flex shadow-md inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
             <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
-              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
-              <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
-              <button className="w-[155px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More</button>
+              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Productivity & Analytics</h1>
+              <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Optimize performance and make data-driven decisions.ccc</p>
+              <button className="w-[160px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More...</button>
             </div>
             <div>
-              <img src = {image1}/>
+              <img src = {image3}/>
             </div>
           </div>
 
           <div className='flex shadow-md inset-shadow-[#FAFAFA] rounded-lg  bg-white w-[520px] h-[292px] '>
             <div className='w-[300px] h-[387px] space-y-4 ml-5 mt-8'>
-              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
-              <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Streamline your operations and boost productivity.</p>
-              <button className="w-[155px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More</button>
+              <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>AI-Powered Solutions</h1>
+              <p className='font-sora font-normal text-[18px] leading-[2] tracking-[-0.5px] text-[#64647B]'>Leverage cutting-edge technology for smarter business.</p>
+              <button className="w-[160px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More... </button>
             </div>
             <div>
-              <img src = {image1}/>
+              <img src = {image4}/>
             </div>
           </div>
         </div>
         
       </div>
 
+      <div className='flex flex-col space-y-4 mt-20'>
+        <div>
+          <h1 className="font-sora font-medium text-[24px] leading-[100%] tracking-[0%] uppercase text-center text-[#666666] ">Why Choose Protomated?</h1>
+        </div>
+
+        <div className='mt-10 flex flex-wrap gap-20 ml-10'>
+          <div className='w-[323px] h-[282px]'>
+            <div className='w-[128px] h-[128px]'>
+              <img src = {image_1} />
+            </div>
+            <h1 className='font-sora font-medium text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
+            <p className='font-sora font-normal text-[18px] text-[#64647B]'>We bring best practices from various industries to your doorstep</p>
+          </div>
+
+          <div className='w-[323px] h-[282px]'>
+            <div className='w-[128px] h-[128px]'>
+              <img src = {image_2} />
+            </div>
+            <h1 className='font-sora font-medium text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Customized Solutions</h1>
+            <p className='font-sora font-normal text-[18px] text-[#64647B]'>Tailored automation that fits your unique business needs</p>
+          </div>
+
+          <div className='w-[323px] h-[282px]'>
+            <div className='w-[128px] h-[128px]'>
+              <img src = {image_3} />
+            </div>
+            <h1 className='font-sora font-medium text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Maximized ROI</h1>
+            <p className='font-sora font-normal text-[18px] text-[#64647B]'>Cost-effective solutions that deliver rapid returns</p>
+          </div>
+
+          <div className='w-[323px] h-[282px]'>
+            <div className='w-[128px] h-[128px]'>
+              <img src = {image_3} />
+            </div>
+            <h1 className='font-sora font-medium text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Maximized ROI</h1>
+            <p className='font-sora font-normal text-[18px] text-[#64647B]'>Cost-effective solutions that deliver rapid returns</p>
+          </div>
+
+          <div className='w-[323px] h-[282px]'>
+            <div className='w-[128px] h-[128px]'>
+              <img src = {image_4} />
+            </div>
+            <h1 className='font-sora font-medium text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Quick Implementation</h1>
+            <p className='font-sora font-normal text-[18px] text-[#64647B]'>We bring best practices from various industries to your doorstepCost-effective solutions that deliver rapid returns</p>
+          </div>
+        </div>
+      </div>
+
+      <div className='flex flex-col space-y-4 mt-20'>
+        
+        <div className='flex ml-5 justify-center gap-10 shadow-md inset-shadow-[#FAFAFA] rounded-lg w-[1200px] h-[289px]'>
+          <div className='w-[608px] h-[195px] '>
+            <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] '>Over 50,000 people have gotten that automated solution.</h1>
+          </div>
+          <div className='flex ml-[-30px] space-x-[-10px]'>
+            <img src = {ellipse1} className='w-[48px] h-[48px]'/>
+            <img src = {ellipse2} className='w-[48px] h-[48px]' />
+            <img src = {ellipse3} className='w-[48px] h-[48px]'/>
+          </div>
+          <img src = {feature1} />
+        </div>
+
+        <div className='flex mt-10 justify-between '>
+          <div className='w-[386px] h-[392px] flex flex-col  shadow-md rounded-lg item'>
+            <div className='mt-6 space-y-4'>
+              <div className='w-[118px] h-[20px] bg-[#DEFFDE] rounded-md ml-2'>
+                <h1 className='text-center text-[#115B25] font-sora font-medium text-[16px] leading-[100%] tracking-[0%]'>Automation</h1>
+              </div>
+              <div className='w-[326px] h-[182px] ml-2'>
+                <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Law Firm Efficiency Boost</h1>
+                <p className="font-sora font-normal text-[18px] leading-[36px] tracking-[-0.5px] text-[#64647B]">Overwhelmed by document management and billing processes Automated document categorization and time-tracking integration.</p>
+              </div>
+              <div className='flex justify-between mt-7'>
+                <div className='ml-2 w-[129px] h-[57px] my-10 space-y-3 '>
+                  <h1 className='font-sora font-normal text-[14px] text-[#666666]'>Progress</h1>
+                  <div className='bg-[#DEFFDE] w-[129px] rounded-md'>
+                    <div className='bg-[#115B25] w-[104px] h-[25px] rounded-md'>
+                      <p className='text-white ml-3  font-sora font-normal text-[14px]'>75%</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='mt-20 mr-5'>
+                  <p className='text-[16px] font-sora font-normal text-[#115B25]'>Read More...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='w-[386px] h-[392px] flex flex-col  shadow-md rounded-lg item'>
+            <div className='mt-6 space-y-4'>
+              <div className='w-[118px] h-[20px] bg-[#DEECFF] rounded-md ml-2'>
+                <h1 className='text-center text-[#112E5B] font-sora font-medium text-[16px] leading-[100%] tracking-[0%]'>Accuracy</h1>
+              </div>
+              <div className='w-[326px] h-[182px] ml-2'>
+                <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Streamlined Accounting...</h1>
+                <p className="font-sora font-normal text-[18px] leading-[36px] tracking-[-0.5px] text-[#64647B]">Manual data entry causing errors and delays Intelligent OCR for receipt processing and automated bookkeeping.</p>
+              </div>
+              <div className='flex justify-between mt-7'>
+                <div className='ml-2 w-[129px] h-[57px] my-10 space-y-3'>
+                  <h1 className='font-sora font-normal text-[14px] text-[#666666]'>Speed</h1>
+                  <div className='bg-[#DEECFF] w-[129px] rounded-md'>
+                    <div className='bg-[#112E5B] w-[67px] h-[25px] rounded-md'>
+                      <p className='text-white ml-3  font-sora font-normal text-[14px]'>45%</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='mt-20 mr-5'>
+                  <p className='text-[16px] font-sora font-normal text-[#112E5B]'>Read More...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='w-[386px] h-[392px] flex flex-col  shadow-md rounded-lg item'>
+            <div className='mt-6 space-y-4'>
+              <div className='w-[118px] h-[20px] bg-[#FFF5E5] rounded-md ml-2'>
+                <h1 className='text-center text-[#E3941C] font-sora font-medium text-[16px] leading-[100%] tracking-[0%]'>Efficiency</h1>
+              </div>
+              <div className='w-[326px] h-[182px] ml-2'>
+                <h1 className='font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>HR Consultancy Transfor...</h1>
+                <p className="font-sora font-normal text-[18px] leading-[36px] tracking-[-0.5px] text-[#64647B]">Time-consuming applicant tracking and onboarding Automated applicant screening and digital onboarding workflow.</p>
+              </div>
+              <div className='flex justify-between mt-7'>
+                <div className='ml-2 w-[140px] h-[57px] my-10 space-y-3'>
+                  <h1 className='font-sora font-normal text-[14px] text-[#666666]'>Time Lapse Reduction</h1>
+                  <div className='bg-[#FFF5E5] w-[129px] rounded-md'>
+                    <div className='bg-[#E3941C] w-[69px] h-[25px] rounded-md'>
+                      <p className='text-[#000000] ml-3  font-sora font-normal text-[14px]'>50%</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='mt-20 mr-5'>
+                  <p className='text-[16px] font-sora font-normal text-[#E3941C]'>Read More...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div>
+
+      <div className='flex flex-col mt-20 w-[1158px] justify-center'>
+          <div>
+            <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] text-center'>How it works</h1>
+          </div>
+
+          <div>
+            <div>
+              <img src = {how1} />
+            </div>
+            <div>
+              <h1>Custom Roadmap</h1>
+              <p>We design a tailored automation plan that aligns with your business goals. This personalized roadmap identifies key areas for improvement and integrates the most effective automation strategies to streamline your operations.</p>
+            </div>
+          </div>
+      </div>
   </div>
   )
 }
