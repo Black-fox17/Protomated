@@ -1,68 +1,37 @@
 import { useState } from 'react'
 import './App.css'
-import logo from '/logo.png'
-import frame from '/Frame 5.png'
-import office from '/S6_Data Analytics 1.png'
-import calendar from '/Calendar.png'
+import { Header } from './components/header'
+import { Footer } from './components/footer.tsx'
 // Remove invalid import since techstack module doesn't exist
-import logo1 from '/techstack/flutter.png'
-import logo2 from '/techstack/noco.png'
-import logo3 from '/techstack/budi.png'
-import logo4 from '/techstack/robo.png'
-import logo5 from '/techstack/n8n.png'
-import logo6 from '/techstack/webStudio.png'
-import image1 from '/data/image1.png'
-import image2 from '/data/image2.png'
-import image3 from '/data/image3.png'
-import image4 from '/data/image4.png'
+import {
+  generalAssets,
+  techStackLogos,
+  dataImages,
+  whySectionImages,
+  topicAssets,
+  howItWorksCards,
+  designAssets,
+  maskImages,
+  miscAssets,
+  socialIcons
+} from '../types/utils.ts'
 
-import image_1 from '/why/image1.png'
-import image_2 from '/why/image2.png'
-import image_3 from '/why/image3.png'
-import image_4 from '/why/image4.png'
-
-import feature1 from '/topic/image1.png'
-
-import ellipse1 from '/topic/group/Ellipse 24.png'
-import ellipse2 from '/topic/group/Ellipse 25.png'
-import ellipse3 from '/topic/group/Ellipse 26.png'
-
-import how1 from '/how/card.png'
-import how2 from '/how/card2.png'
-import how3 from '/how/card3.png'
-
-import shape from '/design/Shape.png'
-
-
-import abstract from '/design/abstract.png'
-import abstract1 from '/design/abstract1.png'
-
-import mask1 from '/mask/mask1.png'
-import mask2 from '/mask/mask2.png'
-import mask3 from '/mask/mask3.png'
-
-import image from '/Image.png'
-
-import facebook from '/social/facebook.png';
-import twitter from '/social/twitter.png';
-import linkedin from '/social/linkedin.png';
-import insta from '/social/insta.png';
 function App() {
+  const {logo,frame,officeImage,calendarIcon} = generalAssets;
+  const {flutterLogo,nocoLogo,budiLogo,roboLogo,n8nLogo,webStudioLogo} = techStackLogos;
+  const {dataImage1,dataImage2,dataImage3,dataImage4} = dataImages;
+  const {whyImage1,whyImage2,whyImage3,whyImage4} = whySectionImages;
+  const {topicFeatureImage,ellipse1,ellipse2,ellipse3,} =topicAssets;
+  const {howCard1,howCard2,howCard3,} = howItWorksCards;
+  const {shapeDesign,abstractDesign,abstractDesignAlt,} = designAssets;
+  const {maskImage1,maskImage2,maskImage3,} = maskImages;
+  const {mainImage} = miscAssets;
+
+
   return ( 
     <>
       <div className="justify-center items-center w-[1200px] mx-auto ">
-        <div className="flex justify-between items-center  p-4">
-          <img src={logo} alt="logo" className="w-[174.64px] h-[40px]" />
-          <nav className="left-[501px] absolute top-[26px]">
-            <ul className="flex gap-10 items-center h-full">
-              <li className="font-sora text-[16px] leading-[100%] font-normal tracking-[0%] opacity-50">Home</li>
-              <li className="font-sora text-[16px] leading-[100%] font-normal tracking-[0%] opacity-50">About Us</li>
-              <li className="font-sora text-[16px] leading-[100%] font-normal tracking-[0%] opacity-50">Services</li>
-              <li className="font-sora text-[16px] leading-[100%] font-normal tracking-[0%] opacity-50">Case Studies</li>
-            </ul>
-          </nav>
-          <img src={frame} alt="frame" className="w-[70.27px] h-[28px] " />
-        </div>
+        <Header/>
 
         <div className="flex justify-between items-center mt-10 mx-5">
           <div className="w-[620px] h-[228px] mt-[-200px]">
@@ -80,18 +49,18 @@ function App() {
             </div>
           </div>
           <div className='w-[782.03px] h-[480px]'>
-            <img src = {office} />
+            <img src = {officeImage} />
           </div>
         </div> 
 
         <div className="w-full h-[32px] overflow-hidden">
           <div className="flex gap-35 animate-scroll">
-            <img src={logo1} alt="tech logo" className="w-[144px] h-[32px] " />
-            <img src={logo2} alt="tech logo" className="w-[144px] h-[32px] " />
-            <img src={logo3} alt="tech logo" className="w-[144px] h-[32px] " />
-            <img src={logo4} alt="tech logo" className="w-[144px] h-[32px] " />
-            <img src={logo5} alt="tech logo" className="w-[144px] h-[32px] " />
-            <img src={logo6} alt="tech logo" className="w-[144px] h-[32px] " />
+            <img src={flutterLogo} alt="tech logo" className="w-[144px] h-[32px] " />
+            <img src={nocoLogo} alt="tech logo" className="w-[144px] h-[32px] " />
+            <img src={budiLogo} alt="tech logo" className="w-[144px] h-[32px] " />
+            <img src={roboLogo} alt="tech logo" className="w-[144px] h-[32px] " />
+            <img src={n8nLogo} alt="tech logo" className="w-[144px] h-[32px] " />
+            <img src={webStudioLogo} alt="tech logo" className="w-[144px] h-[32px] " />
           </div>
         </div>
 
@@ -109,7 +78,7 @@ function App() {
                 <button className="w-[160px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More...</button>
               </div>
               <div>
-                <img src = {image1}/>
+                <img src = {dataImage1}/>
               </div>
             </div>
 
@@ -120,7 +89,7 @@ function App() {
                 <button className="w-[160px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More...</button>
               </div>
               <div>
-                <img src = {image2}/>
+                <img src = {dataImage2}/>
               </div>
             </div>
 
@@ -131,7 +100,7 @@ function App() {
                 <button className="w-[160px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More...</button>
               </div>
               <div>
-                <img src = {image3}/>
+                <img src = {dataImage3}/>
               </div>
             </div>
 
@@ -142,7 +111,7 @@ function App() {
                 <button className="w-[160px] h-[46px] gap-[10px] rounded-[8px] pt-[10px] pr-[32px] pb-[14px] pl-[32px] bg-black text-white">Learn More... </button>
               </div>
               <div>
-                <img src = {image4}/>
+                <img src = {dataImage4}/>
               </div>
             </div>
           </div>
@@ -157,7 +126,7 @@ function App() {
           <div className='mt-10 flex flex-wrap gap-20 ml-10'>
             <div className='w-[323px] h-[282px]'>
               <div className='w-[128px] h-[128px]'>
-                <img src = {image_1} />
+                <img src = {whyImage1} />
               </div>
               <h1 className='font-sora font-medium text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Industry-Leading Expertise</h1>
               <p className='font-sora font-normal text-[18px] text-[#64647B]'>We bring best practices from various industries to your doorstep</p>
@@ -165,7 +134,7 @@ function App() {
 
             <div className='w-[323px] h-[282px]'>
               <div className='w-[128px] h-[128px]'>
-                <img src = {image_2} />
+                <img src = {whyImage2} />
               </div>
               <h1 className='font-sora font-medium text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Customized Solutions</h1>
               <p className='font-sora font-normal text-[18px] text-[#64647B]'>Tailored automation that fits your unique business needs</p>
@@ -173,7 +142,7 @@ function App() {
 
             <div className='w-[323px] h-[282px]'>
               <div className='w-[128px] h-[128px]'>
-                <img src = {image_3} />
+                <img src = {whyImage3} />
               </div>
               <h1 className='font-sora font-medium text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Maximized ROI</h1>
               <p className='font-sora font-normal text-[18px] text-[#64647B]'>Cost-effective solutions that deliver rapid returns</p>
@@ -181,7 +150,7 @@ function App() {
 
             <div className='w-[323px] h-[282px]'>
               <div className='w-[128px] h-[128px]'>
-                <img src = {image_3} />
+                <img src = {whyImage3} />
               </div>
               <h1 className='font-sora font-medium text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Maximized ROI</h1>
               <p className='font-sora font-normal text-[18px] text-[#64647B]'>Cost-effective solutions that deliver rapid returns</p>
@@ -189,7 +158,7 @@ function App() {
 
             <div className='w-[323px] h-[282px]'>
               <div className='w-[128px] h-[128px]'>
-                <img src = {image_4} />
+                <img src = {whyImage4} />
               </div>
               <h1 className='font-sora font-medium text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E]'>Quick Implementation</h1>
               <p className='font-sora font-normal text-[18px] text-[#64647B]'>We bring best practices from various industries to your doorstepCost-effective solutions that deliver rapid returns</p>
@@ -208,7 +177,7 @@ function App() {
               <img src = {ellipse2} className='w-[48px] h-[48px]' />
               <img src = {ellipse3} className='w-[48px] h-[48px]'/>
             </div>
-            <img src = {feature1} />
+            <img src = {topicFeatureImage} />
           </div>
 
           <div className='flex mt-20 space-x-8 '>
@@ -300,7 +269,7 @@ function App() {
               <div>
                 <div className='flex justify-between mt-10'>
                   <div className='w-[377.4302062988281px] h-[197.1650390625px]'>
-                    <img src = {how1} />
+                    <img src = {howCard1} />
                   </div>
                   <div className='mt-20 relative'>
                     <p className="font-inter p-3 font-medium text-[20px] leading-[100%] tracking-[-1%] capitalize text-center rounded-4xl bg-[#F8F8F8] text-black">01</p>
@@ -322,13 +291,13 @@ function App() {
                       <div className="absolute left-1/2 w-[2px] h-[250px] bg-[#3E4047] transform -translate-x-1/2"></div>
                     </div>
                   <div className='w-[450px] h-[215px] '>
-                    <img src = {how3} />
+                    <img src = {howCard3} />
                   </div>
                 </div>
 
                 <div className='flex justify-between mt-20'>
                   <div className='w-[377.4302062988281px] h-[197.1650390625px]'>
-                    <img src = {how2} />
+                    <img src = {howCard2} />
                   </div>
                   <div className='mt-20 '>
                     <p className="font-inter p-3 font-medium text-[20px] leading-[100%] tracking-[-1%] capitalize text-center rounded-4xl bg-[#F8F8F8] text-black">03</p>
@@ -355,7 +324,7 @@ function App() {
                   </div>
                   <div className='flex justify-between mt-20'>
                     <div className='flex w-30 space-x-1'>
-                      <img src = {calendar} className='w-3 h-3' />
+                      <img src = {calendarIcon} className='w-3 h-3' />
                       <h1 className='font-sora font-medium text-[10px] leading-[100%] text-[#0F173E]'>October 19, 2019</h1>
                     </div>
                     <p className='font-sora font-normal text-[16px] leading-[100%] text-[#0F173E] mr-2'>Read More ...</p>
@@ -363,7 +332,7 @@ function App() {
                 </div>
               </div>
               <div className='absolute bottom-[-40px] left-[50px] z-0'>
-                  <img src = {abstract} />
+                  <img src = {abstractDesign} />
               </div>
             </div>
 
@@ -375,7 +344,7 @@ function App() {
                 </div>
                 <div className='flex justify-between mt-20'>
                     <div className='flex w-30 space-x-1'>
-                      <img src = {calendar} className='w-3 h-3' />
+                      <img src = {calendarIcon} className='w-3 h-3' />
                       <h1 className='font-sora font-medium text-[10px] leading-[100%] text-[#0F173E]'>October 19, 2019</h1>
                     </div>
                   <p className='font-sora font-normal text-[16px] leading-[100%] text-[#0F173E] mr-2'>Read More ...</p>
@@ -386,7 +355,7 @@ function App() {
               <div>
 
               </div>
-              <img src = {abstract1} className='absolute top-[-40px] right-[20px]'/>
+              <img src = {abstractDesignAlt} className='absolute top-[-40px] right-[20px]'/>
               <div className='relative flex flex-col w-[403px] h-[290px] shadow-md bg-white space-y-6 rounded-2xl'>
                 <div className='ml-4  mt-2'>
                   <div className='mt-2 w-[355px]'>
@@ -395,7 +364,7 @@ function App() {
                   </div>
                   <div className='flex justify-between mt-20'>
                     <div className='flex w-30 space-x-1'>
-                        <img src = {calendar} className='w-3 h-3' />
+                        <img src = {calendarIcon} className='w-3 h-3' />
                         <h1 className='font-sora font-medium text-[10px] leading-[100%] text-[#0F173E]'>October 19, 2019</h1>
                       </div>
                     <p className='font-sora font-normal text-[16px] leading-[100%] text-[#0F173E] mr-2'>Read More ...</p>
@@ -410,7 +379,7 @@ function App() {
             <div className='relative'>
               <h1 className='font-DMSans font-bold text-[48px] text-[#0F173E] text-center'>Testimonials</h1>
               <div className='absolute left-1/2 -translate-x-1/2'>
-                <img src={shape} alt="shape decoration" />
+                <img src={shapeDesign} alt="shape decoration" />
               </div>
             </div>
 
@@ -418,7 +387,7 @@ function App() {
               <div className='w-[558px] h-[250px] shadow-md bg-white rounded-2xl'>
                 <div className='w-[472px] h-[194px] mx-auto my-auto flex flex-col justify-center '>
                   <div className='flex space-x-2'>
-                    <img src = {mask1}/>
+                    <img src = {maskImage1}/>
                     <div>
                       <h1 className='font-sora font-semibold text-[24px] leading-[34px] trackin-g[-0.5px]'>Micheal Chen</h1>
                       <p className='font-sora font-normal text-[12px] leading-[100%] tracking-[0]'>Product Designer</p>
@@ -433,7 +402,7 @@ function App() {
               <div className='w-[558px] h-[250px] shadow-md bg-white rounded-2xl mt-8' >
                 <div className='w-[472px] h-[194px] mx-auto my-auto flex flex-col justify-center '>
                   <div className='flex space-x-2'>
-                    <img src = {mask2}/>
+                    <img src = {maskImage2}/>
                     <div>
                       <h1 className='font-sora font-semibold text-[24px] leading-[34px] trackin-g[-0.5px]'>Mansur Doe</h1>
                       <p className='font-sora font-normal text-[12px] leading-[100%] tracking-[0]'>Product Designer</p>
@@ -448,7 +417,7 @@ function App() {
               <div className='w-[558px] h-[250px] shadow-md bg-white rounded-2xl'>
                 <div className='w-[472px] h-[194px] mx-auto my-auto flex flex-col justify-center '>
                   <div className='flex space-x-2'>
-                    <img src = {mask3}/>
+                    <img src = {maskImage3}/>
                     <div>
                       <h1 className='font-sora font-semibold text-[24px] leading-[34px] trackin-g[-0.5px]'>Mansur Doe</h1>
                       <p className='font-sora font-normal text-[12px] leading-[100%] tracking-[0]'>Product Designer</p>
@@ -464,7 +433,7 @@ function App() {
 
         <div className='flex w-[1000px] mx-auto mt-20 space-x-10'>
           <div className='w-[500px] h-[540px]'>
-            <img src = {image} />
+            <img src = {mainImage} />
           </div>
 
           <div className='w-[595px] mt-auto mb-auto space-y-5'>
@@ -478,33 +447,7 @@ function App() {
           </div>
         </div>
     </div>
-
-    <footer className='bg-[#F9FAFF] mt-20'>
-      <div className='flex justify-between h-[395px] w-[1100px] mx-auto'>
-        <div className='flex flex-col w-[249px] mt-10 gap-3'>
-          <img src={logo} alt="logo" className="w-[174.64px] h-[40px]" />
-          <h1 className='font-sora font-normal text-[16px] text-[#64647B]'>Automated Business Solutions</h1>
-        </div>
-        <div className='w-[241px] flex flex-col mt-10 gap-3'>
-          <h1 className='font-sora font-semibold text-[18px]'>Services</h1>
-          <p className='font-sora font-normal text-[16px] text-[#64647B] leading-[36px]'>Business Process Automation Intelligent Data Processing Productivity & Analytics AI-Powered Solutions</p>
-        </div>
-        <div className='w-[90px] flex flex-col mt-10 gap-3'>
-          <h1 className='font-sora font-semibold text-[18px] '>Company</h1>
-          <p className='font-sora font-normal text-[16px] leading-[36px] text-[#64647B]'>About Us Contact</p>
-        </div>
-        <div className='flex flex-col w-[191px] mt-10 gap-3'>
-          <h1 className='font-sora font-semibold text-[18px]'>Social</h1>
-          <div className='flex justify-between'>
-            <img src = {facebook}/>
-            <img src = {linkedin} />
-            <img src = {twitter} />
-            <img src = {insta} />
-          </div>
-        </div>
-      </div>
-      <h1 className='font-sora font-normal text-[18px] text-[#64647B] mt-auto text-center mb-2'>Copyright 2024 - Protomated. All rights reserved.</h1>
-    </footer>
+    <Footer/>
   </>
   )
 }

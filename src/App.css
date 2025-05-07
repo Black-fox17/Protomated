@@ -23,3 +23,39 @@ body {
 .animate-scroll:hover {
   animation-play-state: paused;
 }
+
+.card-container {
+  @apply w-[386px] h-[392px] flex flex-col shadow-md bg-white rounded-lg;
+}
+
+.card-badge {
+  @apply w-[118px] h-[20px] rounded-md ml-2 text-center text-[16px] leading-[100%] tracking-[0%] font-sora font-medium;
+}
+
+.card-content {
+  @apply w-[326px] h-[182px] ml-2;
+}
+
+.card-title {
+  @apply font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E];
+}
+
+.card-text {
+  @apply font-sora font-normal text-[18px] leading-[36px] tracking-[-0.5px] text-[#64647B];
+}
+
+.card-progress-label {
+  @apply font-sora font-normal text-[14px] text-[#666666];
+}
+
+.card-read-more {
+  @apply text-[16px] font-sora font-normal mr-5 mt-20;
+}
+
+.section-heading {
+  @apply font-DMSans font-bold text-[48px] text-[#0F173E] text-center;
+}
+
+.section-container {
+  @apply flex flex-col mt-20 w-[1050px] mx-auto;
+}
