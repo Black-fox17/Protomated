@@ -1,4 +1,16 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap'); */
 @import "tailwindcss";
+
+
+@layer components {
+  .bg-green-light { @apply bg-[#DEFFDE]; }
+  .bg-blue-light { @apply bg-[#DEECFF]; }
+  .bg-yellow-light { @apply bg-[#FFF5E5]; }
+
+  .text-green-dark { @apply text-[#115B25]; }
+  .text-blue-dark { @apply text-[#112E5B]; }
+  .text-yellow-dark { @apply text-[#E3941C]; }
+}
 
 body {
   background-color: #FFFFFF;
@@ -24,12 +36,19 @@ body {
   animation-play-state: paused;
 }
 
+.section-style{
+  @apply justify-center items-center w-[1200px] mx-auto 
+}
+
+.header-list{
+  @apply text-[16px] leading-[100%] font-normal tracking-[0%] opacity-50
+}
 .card-container {
   @apply w-[386px] h-[392px] flex flex-col shadow-md bg-white rounded-lg;
 }
 
 .card-badge {
-  @apply w-[118px] h-[20px] rounded-md ml-2 text-center text-[16px] leading-[100%] tracking-[0%] font-sora font-medium;
+  @apply w-[118px] h-[20px] rounded-md ml-2 text-center text-[16px] leading-[100%] tracking-[0%]   font-medium;
 }
 
 .card-content {
@@ -37,25 +56,31 @@ body {
 }
 
 .card-title {
-  @apply font-sora font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E];
+  @apply   font-semibold text-[24px] leading-[34px] tracking-[-0.5px] text-[#0F173E];
 }
 
 .card-text {
-  @apply font-sora font-normal text-[18px] leading-[36px] tracking-[-0.5px] text-[#64647B];
+  @apply   font-normal text-[18px] leading-[36px] tracking-[-0.5px] text-[#64647B];
 }
 
 .card-progress-label {
-  @apply font-sora font-normal text-[14px] text-[#666666];
+  @apply   font-normal text-[14px] text-[#666666];
 }
 
 .card-read-more {
-  @apply text-[16px] font-sora font-normal mr-5 mt-20;
+  @apply text-[16px] font-normal mr-5 mt-20;
 }
 
 .section-heading {
-  @apply font-DMSans font-bold text-[48px] text-[#0F173E] text-center;
+  @apply  font-bold text-[48px] text-[#0F173E] text-center;
 }
 
 .section-container {
   @apply flex flex-col mt-20 w-[1050px] mx-auto;
+}
+.section-starter{
+  @apply flex justify-between items-center mt-10 mx-5
+}
+.page-heading{
+  @apply font-bold text-[56px] leading-[76px] tracking-[-0.5px] text-[#0F173E]
 }

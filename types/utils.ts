@@ -56,6 +56,14 @@ import twitterIcon from '/social/twitter.png';
 import linkedinIcon from '/social/linkedin.png';
 import instagramIcon from '/social/insta.png';
 
+import heropic from '/about/heroPic.png'
+import rec1 from '/about/rec1.png'
+import rec2 from '/about/rec2.png'
+import rec3 from '/about/rec3.png'
+import rec4 from '/about/rec4.png'
+import rec5 from '/about/rec5.png'
+import rec6 from '/about/rec6.png'
+import rec7 from '/about/rec7.png'
 // Export grouped for clarity and maintainability
 export const generalAssets = {
   logo,
@@ -123,3 +131,14 @@ export const socialIcons = {
   instagramIcon,
   logo
 };
+
+export const aboutAssets = {
+  heropic,
+  rec1,
+  rec2,
+  rec3,
+  rec4,
+  rec5,
+  rec6,
+  rec7
+}

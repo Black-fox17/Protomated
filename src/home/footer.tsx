@@ -1,4 +1,5 @@
 import {socialIcons} from '../../types/utils.ts';
+import {Link} from 'react-router-dom'
 
 export function Footer(){
     const {facebookIcon,twitterIcon,linkedinIcon,instagramIcon,logo} = socialIcons;
@@ -16,7 +17,11 @@ export function Footer(){
                     </div>
                     <div className='w-[90px] flex flex-col mt-10 gap-3'>
                     <h1 className='font-sora font-semibold text-[18px] '>Company</h1>
-                    <p className='font-sora font-normal text-[16px] leading-[36px] text-[#64647B]'>About Us Contact</p>
+                    <p className='font-sora font-normal text-[16px] leading-[36px] text-[#64647B]'>
+                        <Link to= '/about'>
+                            About Us Contact
+                        </Link>
+                    </p>
                     </div>
                     <div className='flex flex-col w-[191px] mt-10 gap-3'>
                     <h1 className='font-sora font-semibold text-[18px]'>Social</h1>
