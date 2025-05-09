@@ -19,7 +19,12 @@ export function Footer(){
                     <h1 className='font-sora font-semibold text-[18px] '>Company</h1>
                     <p className='font-sora font-normal text-[16px] leading-[36px] text-[#64647B]'>
                         <Link to= '/about'>
-                            About Us Contact
+                            About Us
+                        </Link>
+                    </p>
+                    <p className='font-sora font-normal text-[16px] leading-[36px] text-[#64647B] mt-[-16px]'>
+                        <Link to= '/contact'>
+                            Contact
                         </Link>
                     </p>
                     </div>
