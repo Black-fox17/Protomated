@@ -13,6 +13,7 @@ import budiLogo from '/techstack/budi.png';
 import roboLogo from '/techstack/robo.png';
 import n8nLogo from '/techstack/n8n.png';
 import webStudioLogo from '/techstack/webStudio.png';
+import activeLogo from '/techstack/activeLogo.png';
 
 // Data Images
 import dataImage1 from '/data/image1.png';
@@ -79,6 +80,7 @@ export const techStackLogos = {
   roboLogo,
   n8nLogo,
   webStudioLogo,
+  activeLogo
 };
 
 export const dataImages = {

@@ -84,3 +84,6 @@ body {
 .page-heading{
   @apply font-bold text-[56px] leading-[76px] tracking-[-0.5px] text-[#0F173E]
 }
+.brand-logo{
+  @apply bg-[#F4F4F4] w-[200px] h-[50px] flex items-center justify-center rounded-sm
+}

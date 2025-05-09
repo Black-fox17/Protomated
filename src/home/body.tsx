@@ -42,14 +42,14 @@ export function Body(){
           </div>
         </div> 
 
-        <div className="w-full h-[32px] overflow-hidden">
+        <div className="w-full h-[50px] overflow-hidden">
           <div className="flex gap-35 animate-scroll">
-            <img src={flutterLogo} alt="tech logo" className="w-[144px] h-[32px] " />
-            <img src={nocoLogo} alt="tech logo" className="w-[144px] h-[32px] " />
-            <img src={budiLogo} alt="tech logo" className="w-[144px] h-[32px] " />
-            <img src={roboLogo} alt="tech logo" className="w-[144px] h-[32px] " />
-            <img src={n8nLogo} alt="tech logo" className="w-[144px] h-[32px] " />
-            <img src={webStudioLogo} alt="tech logo" className="w-[144px] h-[32px] " />
+            <img src={flutterLogo} alt="tech logo" className="w-[200px] h-[50px] " />
+            <img src={nocoLogo} alt="tech logo" className="w-[200px] h-[50px] " />
+            <img src={budiLogo} alt="tech logo" className="w-[200px] h-[50px] " />
+            <img src={roboLogo} alt="tech logo" className="w-[200px] h-[50px] " />
+            <img src={n8nLogo} alt="tech logo" className="w-[200px] h-[50px] " />
+            <img src={webStudioLogo} alt="tech logo" className="w-[200px] h-[50px] " />
           </div>
         </div>
 
