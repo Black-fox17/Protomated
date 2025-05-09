@@ -2,7 +2,7 @@ import { Footer } from "../home/footer";
 import { Header } from "../home/header";
 import { aboutAssets, whySectionImages, techStackLogos } from "../../types/utils";
 export function About() {
-    const {heropic,rec1,rec2,rec3,rec4,rec5,rec6,rec7} = aboutAssets;
+    const {heropic,rec1,rec2,rec3,rec5,rec6,rec7} = aboutAssets;
     const {whyImage1,whyImage2,whyImage3,whyImage4} = whySectionImages;
     const {flutterLogo,nocoLogo,budiLogo,roboLogo,n8nLogo,webStudioLogo,activeLogo} = techStackLogos
     return(

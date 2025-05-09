@@ -1,7 +1,7 @@
 import {generalAssets} from '../../types/utils.ts';
 import { Link } from 'react-router-dom';
 export function Header(){
-    const {logo,frame,...otherAssets} = generalAssets;
+    const {logo,frame} = generalAssets;
     return(
         <>
          <div className="fixed left-10 right-10 top-0 flex justify-between items-center  p-4">

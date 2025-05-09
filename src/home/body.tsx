@@ -11,7 +11,7 @@ import {
   } from '../../types/utils.ts'
 
 export function Body(){
-    const {logo,frame,officeImage,calendarIcon} = generalAssets;
+    const {officeImage,calendarIcon} = generalAssets;
     const {flutterLogo,nocoLogo,budiLogo,roboLogo,n8nLogo,webStudioLogo} = techStackLogos;
     const {dataImage1,dataImage2,dataImage3,dataImage4} = dataImages;
     const {whyImage1,whyImage2,whyImage3,whyImage4} = whySectionImages;
