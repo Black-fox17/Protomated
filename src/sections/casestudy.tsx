@@ -1,10 +1,11 @@
 import { Footer } from "../home/footer";
 import { Header } from "../home/header";
 import { Link } from "react-router-dom";
-import {casestudy} from "../../types/utils"
+import {casestudy,polygons} from "../../types/utils"
 
 export function CaseStudy() {
     const {briefcase,image1,image2,image3,image4,image5} = casestudy;
+    const {polygon1} = polygons;
     return (
         <>
         <div className="section-style">
@@ -38,7 +39,10 @@ export function CaseStudy() {
                 </div>
 
                 <div className="mt-20 flex flex-wrap space-x-5 space-y-10">
-                  <div className='w-[360px] h-[609px] bg-white rounded-lg item flex flex-col items-center space-x-3'>
+                  <Link
+                  to = '/case-study/unique'
+                  state = {{ name: "Law Firm Efficiency Boost", image:polygon1 }}
+                  className='hover:shadow-2xl hover:scale-[0.97] transition-all duration-300 ease-in-out w-[360px] h-[609px] bg-white rounded-lg item flex flex-col items-center space-x-3'>
                     <div className='mt-6 space-y-5'>
                         <div className="w-[330px] h-[295px]">
                             <img src = {image1} />
@@ -65,9 +69,12 @@ export function CaseStudy() {
                         </div>
                         </div>
                     </div>
-                  </div>
+                  </Link>
 
-                  <div className='w-[360px] h-[609px] bg-white rounded-lg item flex flex-col items-center space-x-3'>
+                  <Link
+                  to = '/case-study/unique'
+                  state = {{ name: "Law Firm Efficiency Boost 2", image:image2 }}
+                  className='hover:shadow-2xl hover:scale-[0.97] transition-all duration-300 ease-in-out w-[360px] h-[609px] bg-white rounded-lg item flex flex-col items-center space-x-3'>
                     <div className='mt-6 space-y-5'>
                         <div className="w-[330px] h-[295px]">
                             <img src = {image2} />
@@ -76,7 +83,7 @@ export function CaseStudy() {
                         <h1 className='text-center text-[#115B25] font-sora font-medium text-[16px] leading-[100%] tracking-[0%]'>Automation</h1>
                         </div>
                         <div className='w-[326px] ml-2'>
-                        <h1 className='font-sora card-title'>Law Firm Efficiency Boost</h1>
+                        <h1 className='font-sora card-title'>Law Firm Efficiency Boost 2</h1>
                         <p className="font-sora text-[14px] font-normal text-[#64647B] leading-[28px]">Overwhelmed by document management and billing processes Automated document categorization and time-tracking integration</p>
                         </div>
                         <div className='flex justify-between'>
@@ -94,9 +101,13 @@ export function CaseStudy() {
                         </div>
                         </div>
                     </div>
-                  </div>
+                  </Link>
 
-                  <div className='w-[360px] h-[609px] bg-white rounded-lg item flex flex-col items-center space-x-3'>
+                  <Link
+                  to = '/case-study/unique'
+                  state = {{ name: "Law Firm Efficiency Boost 3", image:image3 }}
+                  className='hover:shadow-2xl hover:scale-[0.97] transition-all duration-300 ease-in-out w-[360px] h-[609px] bg-white rounded-lg item flex flex-col items-center space-x-3'>
+
                     <div className='mt-6 space-y-5'>
                         <div className="w-[330px] h-[295px]">
                             <img src = {image3} />
@@ -105,7 +116,7 @@ export function CaseStudy() {
                         <h1 className='text-center text-[#115B25] font-sora font-medium text-[16px] leading-[100%] tracking-[0%]'>Automation</h1>
                         </div>
                         <div className='w-[326px] ml-2'>
-                        <h1 className='font-sora card-title'>Law Firm Efficiency Boost</h1>
+                        <h1 className='font-sora card-title'>Law Firm Efficiency Boost 3</h1>
                         <p className="font-sora text-[14px] font-normal text-[#64647B] leading-[28px]">Overwhelmed by document management and billing processes Automated document categorization and time-tracking integration</p>
                         </div>
                         <div className='flex justify-between'>
@@ -123,9 +134,13 @@ export function CaseStudy() {
                         </div>
                         </div>
                     </div>
-                  </div>
+                  </Link>
 
-                  <div className='w-[360px] h-[609px] bg-white rounded-lg item flex flex-col items-center space-x-3'>
+                  <Link
+                  to = '/case-study/unique'
+                  state = {{ name: "Law Firm Efficiency Boost 4", image:image4 }}
+                  className='hover:shadow-2xl hover:scale-[0.97] transition-all duration-300 ease-in-out w-[360px] h-[609px] bg-white rounded-lg item flex flex-col items-center space-x-3'>
+
                     <div className='mt-6 space-y-5'>
                         <div className="w-[330px] h-[295px]">
                             <img src = {image4} />
@@ -134,7 +149,7 @@ export function CaseStudy() {
                         <h1 className='text-center text-[#115B25] font-sora font-medium text-[16px] leading-[100%] tracking-[0%]'>Automation</h1>
                         </div>
                         <div className='w-[326px] ml-2'>
-                        <h1 className='font-sora card-title'>Law Firm Efficiency Boost</h1>
+                        <h1 className='font-sora card-title'>Law Firm Efficiency Boost 4</h1>
                         <p className="font-sora text-[14px] font-normal text-[#64647B] leading-[28px]">Overwhelmed by document management and billing processes Automated document categorization and time-tracking integration</p>
                         </div>
                         <div className='flex justify-between'>
@@ -152,9 +167,13 @@ export function CaseStudy() {
                         </div>
                         </div>
                     </div>
-                  </div>
+                  </Link>
 
-                  <div className='w-[360px] h-[609px] bg-white rounded-lg item flex flex-col items-center space-x-3'>
+                  <Link
+                  to = '/case-study/unique'
+                  state = {{ name: "Law Firm Efficiency Boost 5", image:image5 }}
+                  className='hover:shadow-2xl hover:scale-[0.97] transition-all duration-300 ease-in-out w-[360px] h-[609px] bg-white rounded-lg item flex flex-col items-center space-x-3'>
+
                     <div className='mt-6 space-y-5'>
                         <div className="w-[330px] h-[295px]">
                             <img src = {image5} />
@@ -163,7 +182,7 @@ export function CaseStudy() {
                         <h1 className='text-center text-[#115B25] font-sora font-medium text-[16px] leading-[100%] tracking-[0%]'>Automation</h1>
                         </div>
                         <div className='w-[326px] ml-2'>
-                        <h1 className='font-sora card-title'>Law Firm Efficiency Boost</h1>
+                        <h1 className='font-sora card-title'>Law Firm Efficiency Boost 5</h1>
                         <p className="font-sora text-[14px] font-normal text-[#64647B] leading-[28px]">Overwhelmed by document management and billing processes Automated document categorization and time-tracking integration</p>
                         </div>
                         <div className='flex justify-between'>
@@ -181,8 +200,7 @@ export function CaseStudy() {
                         </div>
                         </div>
                     </div>
-                  </div>
-
+                  </Link>
                 </div>
             </div>
         </div>

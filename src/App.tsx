@@ -4,6 +4,7 @@ import Main from './sections/Main'
 import { About } from './sections/about';
 import {Contact} from './sections/contact';
 import {CaseStudy} from './sections/casestudy'
+import StudyInner from './components/study';
 const App = () => {
   return ( 
     <>
@@ -13,6 +14,7 @@ const App = () => {
           <Route path = '/about' element = {<About/>} />
           <Route path = '/contact' element = {<Contact/>} />
           <Route path = '/case-study' element = {<CaseStudy/>} />
+          <Route path = '/case-study/unique' element = {<StudyInner/>} />
         </Routes>
       </Router>
     </>

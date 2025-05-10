@@ -72,6 +72,12 @@ import image2 from '/study/image2.png'
 import image3 from '/study/image3.png'
 import image4 from '/study/image4.png'
 import image5 from '/study/image5.png'
+
+import polygon1 from '/study/polygon1.png';
+
+import longimage1  from '/study/image.png'
+import longimage2  from '/study/image_1.png'
+import longimage3  from '/study/image_2.png'
 // Export grouped for clarity and maintainability
 export const generalAssets = {
   logo,
@@ -159,4 +165,13 @@ export const casestudy = {
   image3,
   image4,
   image5
+}
+
+export const polygons = {
+  polygon1
+}
+export const LongImages = {
+  longimage1,
+  longimage2,
+  longimage3
 }

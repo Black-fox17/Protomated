@@ -87,3 +87,7 @@ body {
 .brand-logo{
   @apply bg-[#F4F4F4] w-[200px] h-[50px] flex items-center justify-center rounded-sm
 }
+
+.case-text{
+  @apply font-normal text-[18px] leading-[36px] tracking-[-0.5px] text-[#64647B]
+}
