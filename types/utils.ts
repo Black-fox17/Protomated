@@ -65,6 +65,13 @@ import rec4 from '/about/rec4.png'
 import rec5 from '/about/rec5.png'
 import rec6 from '/about/rec6.png'
 import rec7 from '/about/rec7.png'
+
+import briefcase from '/study/briefcase.png'
+import image1 from '/study/image1.png'
+import image2 from '/study/image2.png'
+import image3 from '/study/image3.png'
+import image4 from '/study/image4.png'
+import image5 from '/study/image5.png'
 // Export grouped for clarity and maintainability
 export const generalAssets = {
   logo,
@@ -143,4 +150,13 @@ export const aboutAssets = {
   rec5,
   rec6,
   rec7
+}
+
+export const casestudy = {
+  briefcase,
+  image1,
+  image2,
+  image3,
+  image4,
+  image5
 }

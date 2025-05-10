@@ -20,7 +20,9 @@ export function Header(){
                 >About Us</Link>
               </li>
               <li className="header-list">Services</li>
-              <li className="header-list">Case Studies</li>
+              <li className="header-list">
+                <Link to = "/case-study">Case Studies</Link>
+                </li>
             </ul>
           </nav>
           <img src={frame} alt="frame" className="w-[70.27px] h-[28px] " />
